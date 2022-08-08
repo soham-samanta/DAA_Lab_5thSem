@@ -12,7 +12,7 @@ void swap(int arr[], int i, int j) {
     arr[j] = temp;
 }
 
-static void insertion(int arr[], int n) {   // 6 3 8 9 1 
+void insertion(int arr[], int n) {   // 6 3 8 9 1 
     for (int i = 0; i < n - 1; i++) {
         for (int j = i+1; j > 0; j--) {
             if (arr[j] < arr[j-1]) {
