@@ -84,7 +84,7 @@ int32_t main(){
 
 	cout << "\nSorted array is \n";
 	printArray(arr, arr_size);
-	return 0;
+	cout<<endl;
 
     return 0;
 }
