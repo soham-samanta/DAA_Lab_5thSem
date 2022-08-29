@@ -7,9 +7,6 @@ using namespace std;
 #define ss ios_base::sync_with_stdio(false);cin.tie(NULL);
 
 
-#include <iostream>
-using namespace std;
-
 struct Node {
 	int data;
 	struct Node* next;

@@ -1,0 +1,33 @@
+Spanning tree is the subset of graph G which has covered all the vertices V of graph G 
+with the minimum possible number of edges. Hence we say that a spanning tree doesn’t 
+contain any loop or cycle and it cannot be disconnected.
+
+For a disconnected graph, there will be no spanning tree possible because it is impossible 
+to cover all the vertices for any disconnected graph.
+
+So, for every connected and undirected graph has at least one spanning tree is possible.
+
+Hence some properties of spanning tree:-
+
+Spanning tree has V-1 number of edges where V is the number of vertices.
+For a complete and undirected graph has maximum possible spanning tree for n number of 
+vertices will be n^(n-2)
+Spanning tree doesn’t have any loops and cycle.
+Now see the diagram,
+
+
+
+
+
+For weighted graph G=(V,E), where V={v1,v2,v3,…..} E={e1,e2,e3,e4………}
+
+Minimum spanning tree is defined by a spanning tree which has minimum weight than all 
+others spanning trees weight of the same graph.
+
+Here we will learn about the two most important algorithms to find the minimum spanning the 
+tree of graph G,
+
+PRIM’S algorithm.
+KRUSKAL’S algorithm.
+Here we see the example of weighted Graph G and use the algorithm to find the MST.
+
